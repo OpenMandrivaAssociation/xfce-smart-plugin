@@ -12,7 +12,6 @@ BuildRequires:	libxfcegui4-devel
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	intltool
 Requires:	smart-gui
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 A Smart plugin for the Xfce panel.
