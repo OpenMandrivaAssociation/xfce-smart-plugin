@@ -4,7 +4,7 @@ Version: 	0.1.2
 Release: 	%mkrel 4
 License:	GPL
 Group: 		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-smartpm-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-smartpm-plugin
 Source0: 	http://goodies.xfce.org/releases/xfce4-smartpm-plugin/xfce4-smart-plugin-%{version}.tar.bz2
 Requires:	xfce-panel >= 4.4
 BuildRequires:	xfce-panel-devel >= 4.4
