@@ -7,6 +7,11 @@ Group: 		Graphical desktop/Xfce
 URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-smartpm-plugin
 Source0: 	http://goodies.xfce.org/releases/xfce4-smartpm-plugin/xfce4-smart-plugin-%{version}.tar.bz2
 Requires:	xfce-panel >= 4.4
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	xfce-panel-devel >= 4.4
 BuildRequires:	libxfcegui4-devel
 BuildRequires:	perl(XML::Parser)
